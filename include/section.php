@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="card shadow rounded" style="width: 25rem;">
-				<img src="images/slider/header1.jpg" height="300px" class="card-img-top" alt="">
+				<img src="images/services/thanos1.png" height="300px" class="card-img-top" alt="">
 				<div class="card-body">
 					<div class="card-title">ส่งเสริมสนับสนุนและพัฒนา</div>
 					<div class="underline"></div>
@@ -22,7 +22,7 @@
 
 		<div class="col-md-4">
 			<div class="card shadow rounded" style="width: 25rem;">
-				<img src="images/slider/header2.jpg" height="300px" class="card-img-top" alt="">
+				<img src="images/services/thanos2.png" height="300px" class="card-img-top" alt="">
 				<div class="card-body">
 					<div class="card-title">ส่งเสริมสนับสนุนและพัฒนา</div>
 					<div class="underline"></div>
@@ -34,7 +34,7 @@
 
 		<div class="col-md-4">
 			<div class="card shadow rounded" style="width: 25rem;">
-				<img src="images/slider/header3.jpg" height="300px" class="card-img-top" alt="">
+				<img src="images/services	/thanos3.png" height="300px" class="card-img-top" alt="">
 				<div class="card-body">
 					<div class="card-title">ส่งเสริมสนับสนุนและพัฒนา</div>
 					<div class="underline"></div>

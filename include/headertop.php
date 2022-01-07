@@ -2,8 +2,8 @@
 	<div class="row">
 
 		<div class="col-md-1 my-20 ">
-			<div style="width: 13rem;">
-				<img src="images/slider/header1.jpg" class="card-img-top rounded" alt="">
+			<div style="width: 10rem;">
+				<img src="images/services/thanos1.png" class="card-img-top rounded" alt="">
 			</div>
 		</div>
 
