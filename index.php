@@ -15,14 +15,12 @@
 <?php include("include/slider.php"); ?>
 <!-- Slider End -->
 
-<!-- Main Start -->
 
+<!-- Main Start -->
 <!-- Section Start -->
 <?php include("include/section.php"); ?>
 <!-- Section End -->
-
 <!-- Main End -->
-
 
 
 <!-- Footer and Script Start -->
