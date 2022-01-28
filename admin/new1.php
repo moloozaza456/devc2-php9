@@ -19,7 +19,53 @@
 	</div>
 	<!-- Page Heading -->
 
-	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAdminNews" data-bs-whatever="@mdo">Add News</button>
+	<div class="card shadow">
+		<div class="card-header">
+			<h6 class="card-title">Add News - ข่าวสาร
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAdminNews" data-bs-whatever="@mdo">Add News</button>
+			</h6>
+		</div>
+
+
+		<div class="card-body">
+			<div class="table-responsive">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th scope="col">ลำดับ</th>
+							<th scope="col">ชื่อ</th>
+							<th scope="col">รายละเอียด</th>
+							<th scope="col">วันเวลา</th>
+							<th scope="col">แก้ไข</th>
+							<th scope="col">ลบ</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row">1</th>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>Otto</td>
+							<td>
+								<form action="news_edit.php" method="post">
+									<input type="hidden" name="news_edit_id">
+									<button type="submit" name="news_editbtn" class="btn btn-success">EDIT</button>
+								</form>
+							</td>
+							<td>
+								<form action="news_code.php" method="post">
+									<input type="hidden" name="delete_image">
+									<input type="hidden" name="delete_doc">
+									<input type="hidden" name="delete_id">
+									<button type="submit" name="news_deletebtn" class="btn btn-danger">DELETE</button>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
 
 	<div class="modal fade" id="addAdminNews" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
